@@ -19,8 +19,8 @@ jobs:
 
       - name: cml
         env:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+          GITHUB_TOKEN: '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'
+          GDRIVE_CREDENTIALS_DATA: 'ya29.a0ARrdaM-R_7ZKXH0tEMeF0cnAbAfGVPknrINjyHamUXxdyUXR66NwA3LxKVvk9gsFwpAxhd1ygxJ6Gvyc4cPTYYST2nVvL4aJY8wZrMfkEJrnWxA_rt0bG0LvMcCHef8mx42yHwewRwc6AnNpVEQQ-YaP2-jn'
         run: |
           pip install -r requirements.txt
           
